@@ -1,0 +1,236 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --Dark-Blue: hsl(233, 26%, 24%);
+  --Lime-Green: hsl(136, 65%, 51%);
+  --Bright-Cyan: hsl(192, 70%, 51%);
+  --Grayish-Blue: hsl(233, 8%, 62%);
+  --Light-Grayish-Blue: hsl(220, 16%, 96%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+}
+
+html {
+  max-width: 400px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--White);
+  z-index: 1;
+}
+
+.introduction-page {
+  position: relative;
+  width: 100vw;
+}
+.background-img {
+  position: relative;
+  width: 100vw;
+  top: -0.5rem;
+}
+.mockup-img {
+  position: absolute;
+  width: 90vw;
+  top: -3rem;
+  left: 1.25rem;
+}
+
+.easy-bank-tag-line{
+    font-size: 2rem;
+    font-family: public sans;
+    font-weight: 400;
+    color: var(--Dark-Blue);
+    text-align: center;
+    line-height: 2.5rem;
+    margin-top: auto;
+    padding: 5vw;
+}
+
+.about-easy-bank{
+    font-size: 0.80rem;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    padding: 5vw;
+    line-height: 1.25rem;
+}
+
+.btn-position{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 40vw;
+    border: 0;
+    padding: 4%;
+    border-radius: 2rem;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--White);
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+.benefits-of-easy-banking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+    background: var(--Light-Grayish-Blue);
+}
+
+.benefits-heading{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--Dark-Blue);
+    margin-top: 3rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+}
+
+.benefits-description{
+    margin: 1.0rem;
+    text-align: center;
+    font-size: 0.80rem;
+    line-height: 1.25rem;
+    color: var(--Grayish-Blue);
+    font-weight: 500;
+}
+
+.benefits-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+}
+
+.names-of-benefits{
+    font-size: 1.5rem;
+    color: var(--Dark-Blue);
+}
+
+.about-benefits-section{
+    margin-top: 1rem;
+    width: fit-content;
+    text-align: center;
+    font-size: 0.80rem;
+    color: var(--Grayish-Blue);
+    line-height: 1.25rem;
+}
+
+.benefits-img{
+    padding: 1.5rem;
+}
+
+.articles-section{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    background: var(--Very-Light-Gray);
+}
+
+.article-card{
+    border-radius: 1rem;
+    background: var(--White);
+    margin-bottom: 2rem;
+}
+
+.articles-heading{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.75rem;
+    color: var(--Dark-Blue);
+}
+
+.article-img{
+    width: 100%;
+    padding-bottom: rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.article-card-text{
+    padding: 1.80rem;
+}
+
+.article-author{
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+}
+
+.article-headline{
+    margin-bottom: 1rem;
+    color: var(--Dark-Blue);
+    font-weight: 400;
+}
+
+.article-text{
+    font-size: 0.75rem;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Dark-Blue);
+    line-height: 2rem;
+}
+
+.easy-bank-logo{
+   padding: 1.25rem 0;
+}
+
+.social-media-img{
+    padding: 0.5rem;    
+}
+
+.page-links{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--Light-Grayish-Blue);
+    font-size: 0.75rem;
+}
+
+.easybank-copyright{
+    font-size: 0.80rem;
+    color: var(--Grayish-Blue);
+    margin-top: auto;
+}
+
+.btn-footer{
+    width: 40vw;
+    border: 0;
+    padding: 4%;
+    border-radius: 2rem;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--White);
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.attribution{
+    font-size: 0.90rem;
+    color: var(--Light-Grayish-Blue);
+}
